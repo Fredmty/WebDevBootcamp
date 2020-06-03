@@ -1,0 +1,31 @@
+h1 {
+	/*Named Colors*/
+	
+	color: purple;
+	/*
+	border-color:red;
+	border-width: 5px;
+	border-style: solid;
+	usar o border abaixo já dá pra utilizaros 3 styles de uma vez, economiza linha e fica + bonito/compreensível
+	*/
+	border: red 5px solid 
+}
+
+li {
+	/*HEXADECIMAL*/
+	color: #F400DD;
+}
+
+h4 {
+	/*RGB*/
+	color: rgb(240, 100, 87);
+}
+
+body {
+	background: pink;
+	/*
+	#background: url(urlaqui);
+	background-repeat: no;
+	background-size: cover;
+	*/
+}
