@@ -1,0 +1,13 @@
+p { 
+ width: 200px;  /*da textbox, ela pode aumentar conferme os em ou % do parent*/
+ height: 200px;  
+    /*border*/
+border:2px solid blue;
+
+    /*padding*/ /*elemento entre o limite da borda e o texto ou conteúdo dentro da box com as margens de cima, baixo, esquerda e direita*/
+    padding:10px;
+    
+
+    /*margin*/ /*elemento que é o fora da borda, o que "espaça" os elementos entre um e outro*/
+    
+}
