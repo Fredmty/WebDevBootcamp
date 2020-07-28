@@ -1,0 +1,22 @@
+head {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+html {
+    width: 1000px;
+    height: 1000px;
+}
+
+h1 {
+    color: #3498db;
+}
+p:nth-of-type(3) {
+    
+    border-bottom: 2px solid #d81c1c;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
