@@ -6,15 +6,17 @@ head {
 html {
     width: 1000px;
     height: 1000px;
+    border:20px solid #bdc3c7;
 }
 
 h2 {
     color: #3498db;
+    text-transform: uppercase;
 }
 
-p:nth-of-type(1) {
-    border-left: rgba(219, 23, 219, 0.133);
-    border-left-color: #d81c1c;
+p {
+    border-block-start-color: #d81c1c;
+    
 }
 
 p:nth-of-type(3) {
@@ -25,5 +27,6 @@ p:nth-of-type(3) {
 
 h1 {
     color: #2c3e50;
+    text-transform: capitalize;
 }
 
