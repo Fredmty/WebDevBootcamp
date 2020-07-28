@@ -3,11 +3,13 @@ head {
     text-align: left;
 }
 
-html {
-    width: 1000px;
-    height: 1000px;
-    border:20px solid #bdc3c7;
+body {
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    width: 700px;
+    margin: 20px auto;
 }
+
 
 h2 {
     color: #3498db;
@@ -19,10 +21,20 @@ p {
     
 }
 
+p:nth-of-type(1) {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
 p:nth-of-type(3) {
     
     border-bottom: 2px solid #d81c1c;
 
+}
+
+p:nth-of-type(4) {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
 }
 
 h1 {
